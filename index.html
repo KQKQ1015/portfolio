@@ -11,6 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/jpn.css@latest/dist/bootstrap/jpn.min.css">
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <script>
         $('.message .close')
             .on('click', function() {
@@ -56,12 +57,13 @@
         <div class="computer tablet only row">
             <div class="column">
                 <div class="ui secondary fixed menu">
-                    <a class="active item" href="#home"><i></i>Yura Nishihara</a>
+                    <a class="active item" href="#home"><i></i>KQKQ</a>
                     <a class="item" href="#profile"><i class="user icon"></i>Profile</a>
                     <a class="item" href="#skills"><i class="list icon"></i>Skills</a>
+                    <a class="item" href="#foryou"><i class="heart icon"></i> For you</a>
                     <div class="right menu">
                         <a class="ui disabled item">
-                        <i class="edit outline icon"></i>Blog
+                        <i class="edibt outline icon"></i>Blog
                     </a>
                     </div>
                 </div>
@@ -70,7 +72,7 @@
         <div class="mobile only row">
             <div class="column">
                 <div class="ui secondary fixed menu">
-                    <a class="active item" href="#home"><i class="home icon"></i>Home</a>
+                    <a class="active item" href="#home"><i class="home icon"></i>KQKQ</a>
                     <div class="right menu">
                         <a class="ui disabled item">
                         <i class="edit outline icon"></i>Blog
@@ -84,8 +86,8 @@
         <div class="ui text container" style="text-align: left;">
             <h1 class="ui inverted header">
                 <div class="content">
-                    <div class="sub header">新居浜工業高等専門学校 電子制御工学科 3年</div>
-                    西原優空
+                    KQKQ
+                    <div class="sub header">KQKQ is Motivated Developer.</div>
                 </div>
             </h1>
             <div class="ui hidden divider"></div>
@@ -100,7 +102,8 @@
         <div class="ui stackable grid">
             <div class="ten wide column">
                 <h3 class="ui header">Message</h3>
-                <p>国立高専在学中の17歳。私が持っているスキルで問題解決をはかります。</p>
+                <p>国立高専在学中の17歳。現在寮生向けのWebアプリ開発を行なっており、寮の運営や寮生がより便利な寮生活を送れるようにさまざまな機能を作成中です。
+                    また私はAIの技術を勉強しておりデータや画像の扱いが得意です。<br>私の持っているスキルで、問題解決をはかります。</p>
             </div>
         </div>
 
@@ -137,20 +140,44 @@
             </tbody>
         </table>
 
-        <h3 class="ui header">プログラミングスキル</h3>
+        <h2 id="skills" class="ui header">スキル</h2>
+        <h3 class="ui header">フロントエンド</h3>
         <ul class="ui list">
-            <li class="item">Python, C#, MATLAB, Java, Javascript, (html, css)</li>
-            <li class="item">上記言語と機械学習(AI)</li>
+            <li class="item">HTML & CSS / Javascript</li>
+            <li class="item">Sass</li>
+        </ul>
+        <h3 class="ui header">バックエンド</h3>
+        <ul class="ui list">
+            <li class="item">Python</li>
+            <li class="item">MATLAB</li>
+            <li class="item">C#</li>
+            <li class="item">Java</li>
+        </ul>
+        <h3 class="ui header">フレームワーク</h3>
+        <ul class="ui list">
+            <li class="item">Django(Web)</li>
+            <li class="item">Pytorch, TensorFlow, scikit-learn(AI)</li>
+        </ul>
+        <h3 class="ui header">その他</h3>
+        <ul class="ui list">
+            <li class="item">Git</li>
+            <li class="item">Github</li>
+            <li class="item">Docker</li>
         </ul>
 
-        <h3 class="ui header">お役に立てること</h3>
-        <ul class="ui list">
-            <li class="item">スクレイピング</li>
-            <li class="item">データ処理・データ入力</li>
-            <li class="item">文章作成</li>
-        </ul>
+        <h2 id="foryou"class="ui header">KQKQがお役に立てること</h2>
+        <div class="ui stackable grid">
+            <div class="ten wide column">
+                <h3 class="ui header">仕事の自動化</h3>
+                <p>Pythonを使って煩わしいデータ収集、データ入力などの作業を自動化させます。</p>
+            </div>
+            <div class="ten wide column">
+                <h3 class="ui header">AIをつかった分類・予測モデル・物体認識作成</h3>
+                <p>AIの技術を使ってデータから未来を予測や分類、さらには画像映像から物体検知・異常検知など様々な業務の自動化・効率化をはかります。</p>
+            </div>
+        </div>
 
-        <h3 class="ui header">趣味</h3>
+        <h2 id="Hobby" class="ui header">趣味</h2>
         <ul class="ui list">
             <li class="item">音楽鑑賞</li>
             <li class="item">ギター</li>
@@ -168,7 +195,7 @@
                         <div class="sub header">
                             新居浜工業高等専門学校 電子制御工学科
                         </div>
-                        西原優空
+                        KQKQ
                     </h4>
                     <p>愛媛県松山市古川北1-1-4</p>
                     <p><i class="mail icon"></i>downtheline1015 [at] gmail.com</p>
